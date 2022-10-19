@@ -1,0 +1,116 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {height: 100%;}
+body {
+	line-height: 1;
+	background: url(Blue-Fon.png);
+}
+.cent {display: flex;}
+main
+	{margin-left: auto;
+    margin-right: auto;
+	width:100%;
+	max-width: 90%;
+	background: white; 
+    height: 8%;}
+.table {
+	font: 25px/30px Calibri, sans-serif;
+	margin-top:2%;
+	margin-left: auto;
+	max-width: 50%;
+	width:100%;
+}
+
+h1{font: 50px/50px Arial, sans-serif;
+	margin-left: 50px ;}
+h2{font: 30px/30px Arial, sans-serif;
+	color:blue;
+	margin-top:2%;
+	margin-bottom: 20px	;}
+body {
+	height: 100%;}
+.content {
+	color: white;
+    max-height: 60%;
+	height: 100%;
+	background: url(LandingIntro.png) no-repeat center top / cover;
+}
+div
+	{margin-left: auto;
+    margin-right: auto;
+    display: flex;
+	color:white;
+	background: darkblue;}
+p
+	{font: 15px/15px Arial, sans-serif;
+	margin-top:2%;
+	}
+.text {
+	font: 20px/20px Calibri,sans-serif;
+	margin-left: 100px;
+	font-weight: 100;
+	max-width: 45%;
+}
+.h2 {
+	font: 100px/100px Arial,sans-serif;
+	margin-left: 100px;
+	font-weight: 200;
+	margin-top:30px;
+	max-width: 50%;
+}
+footer{
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+	width:100%;
+	max-width: 90%; 
+}
+.foottable {
+	margin-right: auto;
+	max-width: 30%;
+	width:50%;
+}
+      article {
+        padding: 10px;
+        margin: 10px;
+        flex: 1 70%;
+      }
+      section {
+      	margin-left: auto;
+    	margin-right: auto;
+        display: flex;
+        max-width: 90%;
+        background: white;
+      }
+      article:nth-of-type(2) {
+        flex: 2 30%;
+        display: flex;
+        flex-flow: column;
+      }
+
+      article:nth-of-type(3) div:first-child {
+        flex: 1 100px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+      }
