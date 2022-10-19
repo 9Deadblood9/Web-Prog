@@ -61,28 +61,19 @@ div
 	color:white;
 	background: darkblue;}
 p
-	{font: 15px/15px Arial, sans-serif;
+	{font: 20px/20px Calibri;
 	margin-top:2%;
+	margin-bottom: 2%; 
 	}
-.text {
-	font: 20px/20px Calibri,sans-serif;
-	margin-left: 100px;
-	font-weight: 100;
-	max-width: 45%;
-}
-.h2 {
-	font: 100px/100px Arial,sans-serif;
-	margin-left: 100px;
-	font-weight: 200;
-	margin-top:30px;
-	max-width: 50%;
-}
 footer{
-	margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
+	color:white;
+	font: 20px/20px Arial,sans-serif;
 	width:100%;
 	max-width: 90%; 
+	margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    margin-top: 2.5%;
 }
 .foottable {
 	margin-right: auto;
