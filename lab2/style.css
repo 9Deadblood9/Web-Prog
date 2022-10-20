@@ -16,13 +16,16 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 html {height: 100%;}
 body {
+	height: 100%;
 	line-height: 1;
 	background: url(Blue-Fon.png);
+}
+p{
+	font: 20px/20px Calibri;
 }
 .cent {display: flex;}
 main
@@ -40,34 +43,50 @@ main
 	width:100%;
 }
 
-h1{font: 50px/50px Arial, sans-serif;
-	margin-left: 50px ;}
-h2{font: 30px/30px Arial, sans-serif;
-	color:blue;
+h1{font: 57px/57px Arial;
+	max-width: 41%;
+	margin-left: 50px;
+ }
+h2{font: 30px/30px Arial;
+	color:blue;	
 	margin-top:2%;
 	margin-bottom: 20px	;}
-body {
-	height: 100%;}
-.content {
+
+.Planet {
 	color: white;
-    max-height: 60%;
+    max-height: 70%;
 	height: 100%;
-	background: url(LandingIntro.png) no-repeat center top / cover;
+	background: url(LandingIntro.png) no-repeat center / cover;
 }
-div
-	{margin-left: auto;
-    margin-right: auto;
-    display: flex;
-	color:white;
-	background: darkblue;}
-p
-	{font: 20px/20px Calibri;
+.PText{
+	margin-left: 50px;
+}	
+.human{
 	margin-top:2%;
 	margin-bottom: 2%; 
-	}
+    margin-left: auto;
+	display: flex;
+	color:white;
+	background: darkblue;
+}
+div {
+	margin-bottom:2%;
+	margin-top:2%;
+}
+b{
+	font:30px/30px Calibri;
+}
+time{
+	font:20px/20px Calibri;
+}
+a{
+	font:25px/25px Calibri;
+	color:blue;
+	margin-left: 50%;
+}
 footer{
 	color:white;
-	font: 20px/20px Arial,sans-serif;
+	font: 20px/20px Arial;
 	width:100%;
 	max-width: 90%; 
 	margin-left: auto;
@@ -86,6 +105,7 @@ footer{
         flex: 1 70%;
       }
       section {
+     	color:black;
       	margin-left: auto;
     	margin-right: auto;
         display: flex;
@@ -96,12 +116,4 @@ footer{
         flex: 2 30%;
         display: flex;
         flex-flow: column;
-      }
-
-      article:nth-of-type(3) div:first-child {
-        flex: 1 100px;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: space-around;
       }
