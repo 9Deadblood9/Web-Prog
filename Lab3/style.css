@@ -1,0 +1,143 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+html {height: 100%;}
+body {
+	height: 100%;
+	line-height: 1;
+	background: url(Blue-Fon.png);
+}
+p{
+	font: 20px/20px Calibri;
+}
+.cent {display: flex;}
+main
+	{margin-left: auto;
+    margin-right: auto;
+	width:100%;
+	max-width: 90%;
+	background: white; 
+    height: 8%;}
+.table {
+	font: 25px/30px Calibri, sans-serif;
+	margin-top:2%;
+	margin-left: auto;
+	max-width: 50%;
+	width:100%;
+}
+
+h1{font: 57px/57px Arial;
+	max-width: 41%;
+	margin-left: 50px;
+	padding-top: 10%;
+ }
+h2{font: 30px/30px Arial;
+	color:blue;	
+	margin-top:2%;
+	margin-bottom: 20px	;}
+
+.Planet {
+	color: white;
+    max-height: 50%;
+	height: 100%;
+	background: url(LandingIntro.png) no-repeat center / cover;
+}
+.PText{
+	padding-top: 5%;
+	margin-left: 50px;
+}	
+.human{
+	margin-top:2%;
+	margin-bottom: 2%; 
+    margin-left: auto;
+	display: flex;
+	color:white;
+	background: darkblue;
+}
+div {
+	margin-bottom:2%;
+	margin-top:2%;
+}
+b{
+	font:30px/30px Calibri;
+}
+time{
+	font:20px/20px Calibri;
+}
+a{
+	font:25px/25px Calibri;
+	color:blue;
+	margin-left: 50%;
+}
+input{
+	font:25px/25px Calibri;
+}
+button{
+	margin-top: 20px;
+	margin-left: auto;
+	 border: 0;
+    line-height: 2;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: blue;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+footer{
+	color:white;
+	font: 20px/20px Arial;
+	width:100%;
+	max-width: 90%; 
+	margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    margin-top: 2.5%;
+}
+.foottable {
+	margin-right: auto;
+	max-width: 30%;
+	width:50%;
+}
+      article {
+        padding: 10px;
+        margin: 10px;
+        flex: 1 70%;
+      }
+      section {
+     	color:black;
+      	margin-left: auto;
+    	margin-right: auto;
+        display: flex;
+        max-width: 90%;
+        background: white;
+      }
+      article:nth-of-type(2) {
+        flex: 2 30%;
+        display: flex;
+        flex-flow: column;
+      }
